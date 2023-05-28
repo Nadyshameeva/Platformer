@@ -7,6 +7,7 @@
 extents = Vector2( 6, 8.5 )
 
 [node name="Player" type="KinematicBody2D"]
+collision_layer = 2
 script = ExtResource( 2 )
 JUMP_FORCE = -160
 JUMP_RELEASE_FORCE = -40
@@ -23,3 +24,7 @@ flip_h = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 3.5 )
 shape = SubResource( 3 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+smoothing_enabled = true
