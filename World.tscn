@@ -20,7 +20,7 @@ position = Vector2( 9, -45 )
 position = Vector2( -9, -45 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 172, -84 )
+position = Vector2( -144, -127 )
 z_index = 10
 
 [node name="TileMap" parent="." instance=ExtResource( 1 )]
